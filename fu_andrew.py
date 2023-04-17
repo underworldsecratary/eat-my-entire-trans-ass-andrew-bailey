@@ -17,7 +17,7 @@ for i in range(0, 10000):
         "DropdownListFieldController": fake.state_abbr(),
         "TextFieldController_6": fake.postcode(),
         "TextFieldController_0": fake.free_email(),
-        "TextFieldController_0": fake.phone_number(),
+        "TextFieldController_3": fake.phone_number(),
         "ParagraphTextFieldController": fake.paragraph(10)}
 
     data_json = json.dumps(data)
