@@ -49,4 +49,4 @@ while True:
                                                     data["DropdownListFieldController"], data["TextFieldController_6"], data["TextFieldController_0"],
                                                     data["TextFieldController_3"], data["ParagraphTextFieldController"] ))
 
-    time.sleep(0.01)
+    time.sleep(1)
