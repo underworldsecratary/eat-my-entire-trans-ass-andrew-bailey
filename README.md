@@ -16,9 +16,9 @@ You will be using the command py for windows python3 for MacOS and Linux
 
 install dependencies
 
-    python3 -m pip install certifi charset-normalizer Faker idna python-dateutil requests six urllib3
+    python3 -m pip install certifi charset-normalizer Faker idna python-dateutil requests six urllib3 pandas
 
-paste the code from forgetful\_egg's post https://www.reddit.com/r/trans/comments/12pof22/the_missouri_government_now_has_a_form_where/jgpxhw3 into a file called defendTrans.py
+in a folder download `defendTrans.py` and `moAddressData.csv`.  make sure they are in the same folder
 
 (The updated version gives user output, so you can see it is working correctly)
 
@@ -29,5 +29,9 @@ now run it by entering:
 Using the later version you should see something like:
 
     $ python3 defendTrans.py
-    Response submitted for Barlett, Eric
-    Response submitted for Rivers, Stacey
+    Response submitted for
+    Kent, Joann
+    63242 Jessica Manors
+    HOLLIDAY, MO, 65258
+    snyderjeffrey@hotmail.com 747.133.8330
+    Suffer third environmental course. Suddenly development organization read language stock ........
