@@ -15,12 +15,10 @@ with open('moAddressData.csv', 'rt') as f:
     for i, _ in enumerate(f):
         pass
 num_lines = i+1
-print(num_lines)
 
 while True:
     random_row = random.sample(range(num_lines), num_lines-1)
     df = pd.read_csv('moAddressData.csv', skiprows=random_row, header=None)
-    print(df)
 
     data = {"TextFieldController_4": fake.first_name(),
             "TextFieldController_5": fake.last_name(),
